@@ -1,0 +1,13 @@
+* Prolog Generative Art
+This repository contains a couple of quick experiments in making generative art with Prolog.  See =generate_pixmap.pro= for details. I hope to expand on this in the future.
+
+** Example Images
+A PNG image converted from a PGM image generated using pixel count as the state
+#+caption: A PNG image converted from a PGM image generated using pixel count as the state
+[[grayscale_seq.png]]
+
+A PNG image converted from a PGM image generated using x- and y-coordinates as input to a stateless predicate
+#+caption: A PGM image converted from a PGM image generated using x- and y-coordinates as input to a stateless predicate
+[[grayscale_pos.png]]
+
+
